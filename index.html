@@ -23,7 +23,8 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#letter" class="nav-link">Love Letter</a></li>
+                    <li><a href="#letter" class="nav-link" data-letter-page="my">Love Letter</a></li>
+                    <li><a href="#letter" class="nav-link" data-letter-page="her">Her Letter</a></li>
                     <li><a href="#gallery" class="nav-link">Our Gallery</a></li>
                     <li><a href="#game" class="nav-link">Memory Game</a></li>
                     <li><a href="#countdown" class="nav-link">Countdown</a></li>
@@ -47,7 +48,7 @@
                         <span class="pulse-dot"></span>
                         A day to celebrate us
                     </div>
-                    <h1 class="cursive">Happy Valentine's Day, My Love!</h1>
+                    <h1 class="cursive">Happy Valentine's Day, Harshyaaaaa!</h1>
                     <p>Every moment with you is a treasure. Today and every day, I celebrate the incredible person you are and the beautiful love we share.</p>
                     <div class="hero-actions">
                         <button class="heart-btn" id="surpriseBtn" type="button">
@@ -61,6 +62,12 @@
                                 <i class="fas fa-envelope-open-text"></i>
                             </span>
                             <span class="valentine-ask-text">Will you be my Valentine?</span>
+                        </button>
+                        <button class="notes-btn" id="notesBtn" type="button">
+                            <span class="notes-btn-icon" aria-hidden="true">
+                                <i class="fas fa-list-check"></i>
+                            </span>
+                            <span class="notes-btn-text">Points Which I Noted Down</span>
                         </button>
                         <a class="ghost-btn" href="#gallery">See Our Memories</a>
                     </div>
@@ -106,24 +113,70 @@
     <section id="letter">
         <div class="container">
             <h2 class="section-title cursive">My Love Letter to You</h2>
-            <div class="love-letter">
-                <div class="letter-content">
-                    <p>My Dearest,</p>
-                    <p>On this special day dedicated to love, I want to express what you mean to me. From the moment we met, my life has been filled with more joy, laughter, and meaning than I ever thought possible.</p>
-                    <p>Your smile lights up my world, your kindness inspires me to be better, and your love gives me strength every single day. With you, I've discovered what true happiness feels like.</p>
-                    <p>I cherish our late-night conversations, our adventures together, and even the quiet moments when we're just enjoying each other's presence. Every memory with you is a treasure I hold close to my heart.</p>
-                    <p>Today, I want to promise you that my love for you will continue to grow with each passing day. I'm so grateful to have you in my life, and I look forward to creating countless more beautiful memories together.</p>
-                    <p>Happy Valentine's Day, my love. You are my everything.</p>
+
+            <div class="letter-pager" id="letterPager" data-page="my">
+                <div class="letter-controls" aria-label="Letter pages">
+                    <button class="letter-control-btn" id="letterPrev" type="button" aria-label="Previous page">
+                        <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                        Prev
+                    </button>
+                    <div class="letter-indicator" id="letterIndicator" aria-live="polite">1 / 2</div>
+                    <button class="letter-control-btn primary" id="letterNext" type="button" aria-label="Next page">
+                        Next
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </button>
                 </div>
-                <div class="letter-signature cursive">
-                    Forever Yours,<br>
-                    <span id="boyfriendName"> Ajju </span>
+
+                <div class="letter-pages">
+                    <article class="love-letter letter-page is-active" data-letter="my" aria-label="My letter">
+                        <div class="letter-content">
+                            <p>My Dearest, Dr. Harshitha Pai</p>
+                            <p>I hope this letter finds you well — because I’m certainly not. Your smile, your kindness, the warmth in your eyes, your intelligence, and the way you care about people have completely ruined my peace.</p>
+                            <p>I love Youuuu my Gonduuu! bana di na mujhe bhi konkani. Dekh maine apne liye already Vesti dekh liya hai bas ek Haa ka intezaar hai, direct lungi me entry lunga pai nivaas me.</p>
+                            <p>Bhai sach bolu toh it feels like such an achievement ki hum yahan tak aa gaye, woh bhi itne hazaar jhagde aur kalesh ke baad. Har fight, har misunderstanding, har rough phase ke baad bhi humne ek dusre ka haath nahi chhoda. Shayad life ka maza hi yehi hai na? Perfect hona zaroori nahi hota, saath rehna zaroori hota hai. Agar sab easy hota toh shayad itna special bhi nahi lagta. Inhi fights, inhi patch-ups, inhi emotional moments mein hi toh hamari asli story bani hai. Kyu, Sahi baat hai na?</p>
+                            <p>Kya pata tha national park ka woh ek dusre ke peeche bhagna will turn into reality. Kya pata tha woh bhivpuri me ek dusre ka haath pakadna will turn into reality. Kya pata tha burger king me lottery such me lag jayegi. Idk hum aur kitna aage tak jayenge but I will Alwaysssss be greatful of this relationship.</p>
+                            <p>Today, I want to promise you that my love for you will continue to grow with each passing day. I'm so grateful to have you in my life, and I look forward to creating countless more beautiful memories together. I think i brought back our letters wala era.</p>
+                            <p>Happy Valentine's Day, my love.</p>
+                        </div>
+                        <div class="letter-signature cursive">
+                            Forever Yours,<br>
+                            <span id="boyfriendName"> Ajju </span>
+                        </div>
+                        <div class="letter-actions">
+                            <button class="ghost-btn" id="letterNextBtn" type="button">Next Page: Her Letter</button>
+                        </div>
+                    </article>
+
+                    <article class="love-letter her-letter letter-page" data-letter="her" aria-label="Her letter">
+                        <div class="letter-content">
+                            <p>From Gondappi,</p>
+                            <p>Happyy Valentine's Baby &#x1FAF6; it's our 2nd valentine's together and we've come a long way. Pichle saal issi time pe we were in different zones and abhi bhi technically zones toh alag hi hai but time frame together has reduced, life is just going on.</p>
+                            <p>We fight, we argue, we misunderstand, we debate over things, we have different choice of opinions, we ideate differently lekin jab baat aati hai to let go off each other we try bouncing back.</p>
+                            <p>This valentine's week was pretty hectic considering your stressful sprint and my exams - but I think we managed to float around.</p>
+                            <p>Maybe long distance is difficult, maybe not seeing each other for months together is even worse and our family restrictions to say the less but har baar jab meet hota hai ek alag sukoon milta hai, feels like all the battles we had have shut down and now it's just the two of us!!!</p>
+                            <p>Bohot si cheezein milke karenge waale folder me rehjaata hai and milne ke baad scene hi kuch or rehta hai but I hope hum sabkuch ekdin tick kar paaye and things workout in our favour.. humara destiny kya hoga wo toh pata nahi but jitna time saath rehne milega koshish rahegi that we make the most of it bcoz together is definitely the best place to be..</p>
+                            <p>I love you might be an understatement for me to say it to my saviour, my cheerleader, my mood uplifter, my stand-up comedian, my word-play gamer, my bank, my motivator, my 'makes me cry and not make it up' person but also my bf. You play roles you don't even realise.</p>
+                            <p>This letter is also to the hardworking boy who is putting his sweat into making his family proud and the person who is going to change the lineage of his family!!! I am super proud of you no matter where I am.</p>
+                            <p>Cheers to youu!! Cheers to us &#x2764;&#xFE0F; &#x1FAC2;</p>
+                        </div>
+                        <div class="letter-footer">
+                            <figure class="letter-figure" aria-hidden="true">
+                                <img class="letter-photo" src="./images/us.jpeg" alt="" loading="lazy" decoding="async" />
+                            </figure>
+                            <div class="letter-signature cursive">
+                                Forever Yours,<br>
+                                <span>Harshitha</span>
+                            </div>
+                        </div>
+                        <div class="letter-actions">
+                            <button class="ghost-btn" id="letterBackBtn" type="button">Back to My Letter</button>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Photo Gallery -->
+<!-- Photo Gallery -->
     <section id="gallery">
         <div class="container">
             <h2 class="section-title cursive">Our Beautiful Memories</h2>
@@ -304,7 +357,6 @@
             <div class="footer-bottom">
                 <div class="footer-mini">
                     <span class="footer-heart-icon" aria-hidden="true"><i class="fas fa-heart"></i></span>
-                    <span>Built with love, always.</span>
                 </div>
                 <div class="footer-copy">© <span id="footerYear">2023</span> Forever Yours</div>
             </div>
@@ -328,10 +380,22 @@
                     <i class="fas fa-wand-magic-sparkles" aria-hidden="true"></i>
                     Another One
                 </button>
-                <a class="surprise-btn ghost" href="#letter" data-close-surprise="true">
-                    <i class="fas fa-envelope-open-text" aria-hidden="true"></i>
-                    Read the Letter
-                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notes Overlay -->
+    <div class="notes-overlay" id="notesOverlay" hidden>
+        <div class="notes-card" role="dialog" aria-modal="true" aria-label="Points to note">
+            <button class="notes-close" id="notesClose" type="button" aria-label="Close">&times;</button>
+            <div class="notes-title cursive">Points Which I Noted Down</div>
+            <div class="notes-sub" id="notesSub">Tiny reminders, big smiles.</div>
+            <ul class="notes-list" id="notesList" aria-live="polite"></ul>
+            <div class="notes-actions">
+                <button class="notes-action-btn" id="notesOkay" type="button">
+                    <i class="fas fa-check" aria-hidden="true"></i>
+                    Got it
+                </button>
             </div>
         </div>
     </div>
@@ -343,7 +407,7 @@
             <div class="valentine-title cursive">Will you be my Valentine?</div>
             <div class="valentine-body">
                 <div class="valentine-note" id="valentineNote">
-                    I promise to bring snacks, hugs, and way too many compliments.
+                    I promise to bring snacks, chocolates, hugs, and way too many compliments.
                 </div>
                 <div class="valentine-choice" id="valentineChoice" aria-label="Choose yes or no">
                     <button class="valentine-choice-btn yes" id="valentineYes" type="button">
