@@ -1,63 +1,63 @@
 // Photo gallery data
         const photoData = [
-            { url: "./images/date1.jpeg", caption: "Our Date Marines (August 10, 2024)", category: "dates" },
-            { url: "./images/date2.jpeg", caption: "Dahisar Short Date", category: "dates" },
-            { url: "./images/date3.jpeg", caption: "Movie Date", category: "dates" },
-            { url: "./images/date4.jpeg", caption: "One more movie Date", category: "dates" },
-            { url: "./images/date5.jpeg", caption: "Birthday Date(Adrak)", category: "dates" },
-            { url: "./images/date6.jpeg", caption: "Social at our service", category: "dates" },
-            { url: "./images/date7.jpeg", caption: "Marines 2.O Date", category: "dates" },
-            { url: "./images/date8.jpeg", caption: "Banger moments at BandStand", category: "dates" },
-            { url: "./images/date9.jpeg", caption: "Yummyyy Candies", category: "dates" },
-            { url: "./images/date10.jpeg", caption: "Marines 3.O", category: "dates" },
-            { url: "./images/date11.jpeg", caption: "Double Date", category: "dates" },
-            { url: "./images/trip1.jpeg", caption: "National Park me mera National Crush mila", category: "trips" },
-            { url: "./images/trip2.jpeg", caption: "Happy Shappy", category: "trips" },
-            { url: "./images/trip3.jpeg", caption: "Sundar log Sundar nazare", category: "trips" },
-            { url: "./images/trip4.jpeg", caption: "IMAGICA(L)", category: "trips" },
-            { url: "./images/trip5.jpeg", caption: "Posing like Mr. and Mrs. Pai", category: "trips" },
-            { url: "./images/trip6.jpeg", caption: "Beauty and the Beast", category: "trips" },
-            { url: "./images/trip7.jpeg", caption: "Tera Saath na Chhodunga", category: "trips" },
-            { url: "./images/trip8.jpeg", caption: "Long Drive Moment", category: "trips" },
-            { url: "./images/trip9.jpeg", caption: "Aur kya chahiye jeene ke liye", category: "trips" },
-            { url: "./images/moment1.jpeg", caption: "Trying our best to get close", category: "moments" },
-            { url: "./images/moment2.jpeg", caption: "Aise na mujhe tum dekho", category: "moments" },
-            { url: "./images/moment3.jpeg", caption: "Hayeeee 🥹", category: "moments" },
-            { url: "./images/moment4.jpeg", caption: "Bhipuri❌  Mannat Puri✔️", category: "moments" },
-            { url: "./images/moment5.jpeg", caption: "Hug to Remember for Life", category: "moments" },
-            { url: "./images/moment6.jpeg", caption: "Hakk se MINEEEEEE", category: "moments" },
-            { url: "./images/moment7.jpeg", caption: "No captions required", category: "moments" },
-            { url: "./images/moment8.jpeg", caption: "My love language", category: "moments" },
-            { url: "./images/moment9.jpeg", caption: "Ek plate ye wala moment lagado yaar", category: "moments" },
-            { url: "./images/moment10.jpeg", caption: "Kya lag rahe hai yaar🥹", category: "moments" },
-            { url: "./images/moment11.jpeg", caption: "Rose by my Rose(Sorry for not reacting nicely)", category: "moments" },
-            { url: "./images/moment12.jpeg", caption: "Me getting lucky in Lucky", category: "moments" },
-            { url: "./images/moment13.jpeg", caption: "Sweet moment", category: "moments" },
             { url: "./images/moment14.jpeg", caption: "Our Love story's Cover page", category: "moments" },
-            { url: "./images/moment15.jpeg", caption: "Mad in Love❌ Made in Love✔️", category: "moments" },
+            { url: "./images/date3.jpeg", caption: "Movie Date", category: "dates" },
+            { url: "./images/trip6.jpeg", caption: "Beauty and the Beast", category: "trips" },
+            { url: "./images/moment13.jpeg", caption: "Sweet moment", category: "moments" },
+            { url: "./images/celeb2.jpeg", caption: "Mujhe sharam aagayi", category: "celebrations" },
+            { url: "./images/moment5.jpeg", caption: "Hug to Remember for Life", category: "moments" },
+            { url: "./images/date9.jpeg", caption: "Yummyyy Candies", category: "dates" },
+            { url: "./images/trip1.jpeg", caption: "National Park me mera National Crush mila", category: "trips" },
+            { url: "./images/moment10.jpeg", caption: "Kya lag rahe hai yaar🥹", category: "moments" },
+            { url: "./images/date1.jpeg", caption: "Our Date Marines (August 10, 2024)", category: "dates" },
+            { url: "./images/celeb5.jpeg", caption: "My Birthday Celebration", category: "celebrations" },
+            { url: "./images/moment2.jpeg", caption: "Aise na mujhe tum dekho", category: "moments" },
+            { url: "./images/trip8.jpeg", caption: "Long Drive Moment", category: "trips" },
+            { url: "./images/date7.jpeg", caption: "Marines 2.O Date", category: "dates" },
             { url: "./images/moment16.jpeg", caption: "Very close to my Heart", category: "moments" },
             { url: "./images/celeb1.jpeg", caption: "My first proposal🥹", category: "celebrations" },
-            { url: "./images/celeb2.jpeg", caption: "Mujhe sharam aagayi", category: "celebrations" },
-            { url: "./images/celeb3.jpeg", caption: "Tujhe sharam aagayi", category: "celebrations" },
-            { url: "./images/celeb4.jpeg", caption: "Kammo ka Sagayi celebration", category: "celebrations" },
-            { url: "./images/celeb5.jpeg", caption: "My Birthday Celebration", category: "celebrations" },
-            { url: "./images/celeb6.jpeg", caption: "Miyaa kya Kebab hai", category: "celebrations" },
+            { url: "./images/date4.jpeg", caption: "One more movie Date", category: "dates" },
+            { url: "./images/moment8.jpeg", caption: "My love language", category: "moments" },
+            { url: "./images/trip4.jpeg", caption: "IMAGICA(L)", category: "trips" },
+            { url: "./images/date11.jpeg", caption: "Double Date", category: "dates" },
+            { url: "./images/moment1.jpeg", caption: "Trying our best to get close", category: "moments" },
             { url: "./images/celeb7.jpeg", caption: "Friendship day celebration (Dadi ko pata liya ab bas Mummy Papa remaining)", category: "celebrations" },
+            { url: "./images/trip3.jpeg", caption: "Sundar log Sundar nazare", category: "trips" },
+            { url: "./images/date5.jpeg", caption: "Birthday Date(Adrak)", category: "dates" },
+            { url: "./images/moment12.jpeg", caption: "Me getting lucky in Lucky", category: "moments" },
+            { url: "./images/celeb4.jpeg", caption: "Kammo ka Sagayi celebration", category: "celebrations" },
+            { url: "./images/date10.jpeg", caption: "Marines 3.O", category: "dates" },
+            { url: "./images/trip9.jpeg", caption: "Aur kya chahiye jeene ke liye", category: "trips" },
+            { url: "./images/moment3.jpeg", caption: "Hayeeee 🥹", category: "moments" },
+            { url: "./images/date6.jpeg", caption: "Social at our service", category: "dates" },
             { url: "./images/celeb8.jpeg", caption: "MOJO me mazza aagaya", category: "celebrations" },
+            { url: "./images/moment6.jpeg", caption: "Hakk se MINEEEEEE", category: "moments" },
+            { url: "./images/trip2.jpeg", caption: "Happy Shappy", category: "trips" },
+            { url: "./images/date2.jpeg", caption: "Dahisar Short Date", category: "dates" },
+            { url: "./images/moment15.jpeg", caption: "Mad in Love❌ Made in Love✔️", category: "moments" },
+            { url: "./images/celeb6.jpeg", caption: "Miyaa kya Kebab hai", category: "celebrations" },
+            { url: "./images/trip7.jpeg", caption: "Tera Saath na Chhodunga", category: "trips" },
+            { url: "./images/moment9.jpeg", caption: "Ek plate ye wala moment lagado yaar", category: "moments" },
+            { url: "./images/date8.jpeg", caption: "Banger moments at BandStand", category: "dates" },
+            { url: "./images/moment11.jpeg", caption: "Rose by my Rose(Sorry for not reacting nicely)", category: "moments" },
+            { url: "./images/celeb3.jpeg", caption: "Tujhe sharam aagayi", category: "celebrations" },
+            { url: "./images/trip5.jpeg", caption: "Posing like Mr. and Mrs. Pai", category: "trips" },
+            { url: "./images/moment7.jpeg", caption: "No captions required", category: "moments" },
+            { url: "./images/moment4.jpeg", caption: "Bhipuri❌  Mannat Puri✔️", category: "moments" }
         ];
-
+        
         // Love Vault game data (kept as Unicode escapes to avoid encoding issues)
         const LOVE_VAULT_PAIRS = [
             { key: 'heart', symbol: '\u{1F496}', title: 'Our Spark', body: 'Somehow, you make ordinary days feel like a celebration.' },
             { key: 'stars', symbol: '\u{1F31F}', title: 'Your Shine', body: 'Your smile is still my favorite kind of magic.' },
-            { key: 'rose', symbol: '\u{1F339}', title: 'Soft & Strong', body: 'Your kindness is gentle, and your heart is brave.' },
+            { key: 'rose', symbol: '\u{1F339}', title: 'Soft & Strong', body: 'Your kindness is gentle, but you make me feel mental.(Bidee)' },
             { key: 'sun', symbol: '\u{2600}\u{FE0F}', title: 'Warmth', body: 'You bring comfort in a way I never knew I needed.' },
-            { key: 'moon', symbol: '\u{1F319}', title: 'Late Night Talks', body: 'I love the way we can talk about everything and nothing.' },
-            { key: 'music', symbol: '\u{1F3B6}', title: 'Our Rhythm', body: 'With you, even silence feels like a song.' },
-            { key: 'coffee', symbol: '\u{2615}\u{FE0F}', title: 'Little Rituals', body: 'The small moments with you are my biggest treasures.' },
+            { key: 'moon', symbol: '\u{1F319}', title: 'Ant Shant Talks', body: 'I love when the topic shifts from intelectual to "haa batana bhai kya bola tha usne fir?"' },
+            { key: 'music', symbol: '\u{1F3B6}', title: 'Our Rhythm', body: 'With you, even silence feels like a song.(Meri Shreya Ghosal 🥹)' },
+            { key: 'coffee', symbol: '\u{2615}\u{FE0F}', title: 'Little Rituals', body: 'To look into each other’s eyes while holding hands.' },
             { key: 'camera', symbol: '\u{1F4F7}', title: 'Memories', body: 'Let\'s keep collecting moments we\'ll smile about forever.' },
-            { key: 'gift', symbol: '\u{1F381}', title: 'Grateful', body: 'You\'re my favorite blessing - today and always.' },
-            { key: 'ring', symbol: '\u{1F48D}', title: 'Promise', body: 'No matter what, I\'m on your team.' },
+            { key: 'gift', symbol: '\u{1F381}', title: 'Grateful', body: 'You\'re my favorite blessing.' },
+            { key: 'ring', symbol: '\u{1F48D}', title: 'Promise', body: 'No matter what, Mai tere hi team me hu re.' },
             { key: 'sparkles', symbol: '\u{2728}', title: 'Wonder', body: 'You make me believe in beautiful things again.' },
             { key: 'love', symbol: '\u{1F495}', title: 'Us', body: 'You + me is my favorite story.' }
         ];
@@ -74,8 +74,17 @@
             { title: 'Tiny Reminder', lines: ['If love had a sound, it would be your laugh.', 'My Laughing Buddhu.'] },
             { title: 'My Promise', lines: ['I will celebrate you in the small moments.', 'And in the big ones too.'] },
             { title: 'One More', lines: ['You make my world softer, brighter, better.', 'I am lucky - every day.'] },
-            { title: 'Tiny Reminder', lines: ['On 13th February you have to do Passport registration.'] },
-            { title: 'One question', lines: ['Am I still on Probabation period?'] },
+            { title: 'Tiny Reminder', lines: ['I’ll definitely be the first person you see when you land in India.'] },
+            { title: 'One question', lines: ['Am I still on Probabation period bro?'] },
+            { title: 'All The Best', lines: ['Praying tere saare exams bahot achhe jaye.','My Doctor'] },
+        ];
+
+        const NOTE_POINTS = [
+            "Teri koi baat nahi sunta.( Sab sunnenge ab se)",
+            "Mai Baat hi nahi karta.( Harr ek possible way me baat karenge)",
+            "Mai kisi aur ko dhuund lu.( Mera matha dusri baar thodi kharab karunga)",
+            "Tu sirf apne mummy papa ki Gondappi hai.( Poori koshish karenge apni bhi banane ka)",
+            "I don't care about you.( Try karenge ye area me bhi strong hone ka)"
         ];
 
         // Memory game data
@@ -93,6 +102,11 @@
         const surpriseMore = document.getElementById('surpriseMore');
         const photoGallery = document.getElementById('photoGallery');
         const valentineBtn = document.getElementById('valentineBtn');
+        const notesBtn = document.getElementById('notesBtn');
+        const notesOverlay = document.getElementById('notesOverlay');
+        const notesClose = document.getElementById('notesClose');
+        const notesList = document.getElementById('notesList');
+        const notesOkay = document.getElementById('notesOkay');
         const valentineOverlay = document.getElementById('valentineOverlay');
         const valentineClose = document.getElementById('valentineClose');
         const valentineYes = document.getElementById('valentineYes');
@@ -126,6 +140,12 @@
         const modalImage = document.getElementById('modalImage');
         const closeModal = document.querySelector('.close-modal');
         const boyfriendName = document.getElementById('boyfriendName');
+        const letterPager = document.getElementById('letterPager');
+        const letterPrev = document.getElementById('letterPrev');
+        const letterNext = document.getElementById('letterNext');
+        const letterIndicator = document.getElementById('letterIndicator');
+        const letterNextBtn = document.getElementById('letterNextBtn');
+        const letterBackBtn = document.getElementById('letterBackBtn');
         const gallerySearch = document.getElementById('gallerySearch');
         const shuffleGalleryBtn = document.getElementById('shuffleGallery');
         const galleryCount = document.getElementById('galleryCount');
@@ -156,16 +176,21 @@
         let surpriseAutoClose = null;
 
         // Set boyfriend's name (you can customize this)
-        boyfriendName.textContent = "Ajju"; // Change to your name
+        if (boyfriendName) boyfriendName.textContent = "Ajju"; // Change to your name
 
         // Initialize the website
         function init() {
-            renderPhotoGallery();
-            createMemoryGame();
-            startCountdown();
+            // This project has multiple pages now, so only initialize the features
+            // that exist on the current page.
+            if (photoGallery) renderPhotoGallery();
+            if (memoryBoard) createMemoryGame();
+            if (document.getElementById('days') || document.getElementById('countdownProgressBar')) startCountdown();
+
+            setupLetterPager();
             setupEventListeners();
             setupHeaderDynamics();
-            setupGalleryControls();
+
+            if (gallerySearch || shuffleGalleryBtn || document.querySelector('.chip-row')) setupGalleryControls();
             setupFooterDynamics();
             setupValentineAsk();
         }
@@ -189,6 +214,46 @@
                 items = items.filter(p => (p.caption || '').toLowerCase().includes(q));
             }
             return items;
+        }
+
+        function setLetterPage(page) {
+            if (!letterPager) return;
+            const pages = Array.from(letterPager.querySelectorAll('.letter-page'));
+            if (!pages.length) return;
+
+            const normalized = page === 'her' ? 'her' : 'my';
+            letterPager.dataset.page = normalized;
+
+            let activeIndex = 0;
+            pages.forEach((p, idx) => {
+                const isActive = p.getAttribute('data-letter') === normalized;
+                p.classList.toggle('is-active', isActive);
+                p.setAttribute('aria-hidden', String(!isActive));
+                if (isActive) activeIndex = idx;
+            });
+
+            if (letterIndicator) letterIndicator.textContent = `${activeIndex + 1} / ${pages.length}`;
+            if (letterPrev) letterPrev.disabled = activeIndex === 0;
+            if (letterNext) letterNext.disabled = activeIndex === pages.length - 1;
+        }
+
+        function setupLetterPager() {
+            if (!letterPager) return;
+
+            setLetterPage(letterPager.dataset.page || 'my');
+
+            if (letterPrev) {
+                letterPrev.addEventListener('click', () => setLetterPage('my'));
+            }
+            if (letterNext) {
+                letterNext.addEventListener('click', () => setLetterPage('her'));
+            }
+            if (letterNextBtn) {
+                letterNextBtn.addEventListener('click', () => setLetterPage('her'));
+            }
+            if (letterBackBtn) {
+                letterBackBtn.addEventListener('click', () => setLetterPage('my'));
+            }
         }
 
         function updateGalleryCount(count) {
@@ -847,8 +912,36 @@
                 }
             });
 
+            // Points to note
+            if (notesBtn) {
+                notesBtn.addEventListener('click', (e) => {
+                    createButtonRipple(notesBtn, e);
+                    const r = notesBtn.getBoundingClientRect();
+                    createHeartBurst(r.left + r.width / 2, r.top + r.height / 2, 14);
+                    showNotesOverlay();
+                });
+            }
+
+            if (notesOkay) notesOkay.addEventListener('click', hideNotesOverlay);
+            if (notesClose) notesClose.addEventListener('click', hideNotesOverlay);
+            if (notesOverlay) {
+                notesOverlay.addEventListener('click', (e) => {
+                    if (e.target === notesOverlay) hideNotesOverlay();
+                });
+            }
+
+            document.querySelectorAll('[data-close-notes="true"]').forEach((el) => {
+                el.addEventListener('click', () => hideNotesOverlay());
+            });
+
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && notesOverlay && !notesOverlay.hidden) {
+                    hideNotesOverlay();
+                }
+            });
+
             // Reset game button
-            resetGameBtn.addEventListener('click', createMemoryGame);
+            if (resetGameBtn) resetGameBtn.addEventListener('click', createMemoryGame);
 
             // Love Vault controls
             if (hintGameBtn) hintGameBtn.addEventListener('click', showLoveVaultHint);
@@ -877,28 +970,38 @@
             });
             
             // Close modal when clicking X
-            closeModal.addEventListener('click', () => {
-                photoModal.style.display = 'none';
-            });
+            if (closeModal && photoModal) {
+                closeModal.addEventListener('click', () => {
+                    photoModal.style.display = 'none';
+                });
+            }
             
             // Close modal when clicking outside the image
-            photoModal.addEventListener('click', (e) => {
-                if (e.target === photoModal) {
-                    photoModal.style.display = 'none';
-                }
-            });
+            if (photoModal) {
+                photoModal.addEventListener('click', (e) => {
+                    if (e.target === photoModal) {
+                        photoModal.style.display = 'none';
+                    }
+                });
+            }
             
             // Smooth scrolling for navigation links
-            document.querySelectorAll('nav a').forEach(link => {
+            document.querySelectorAll('nav a[href^=\"#\"]').forEach(link => {
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
                     const targetId = link.getAttribute('href');
                     const targetSection = document.querySelector(targetId);
+                    if (!targetSection) return;
                     
                     window.scrollTo({
                         top: targetSection.offsetTop - 80,
                         behavior: 'smooth'
                     });
+
+                    const desired = link.dataset?.letterPage;
+                    if (desired && targetId === '#letter') {
+                        setTimeout(() => setLetterPage(desired), 420);
+                    }
                 });
             });
         }
@@ -906,29 +1009,46 @@
         // Add dynamic header behavior (shrink + active section highlight)
         function setupHeaderDynamics() {
             const header = document.querySelector('.site-header');
-            const navLinks = document.querySelectorAll('.nav-link');
-            const sections = Array.from(navLinks)
-                .map((link) => document.querySelector(link.getAttribute('href')))
-                .filter(Boolean);
+            const navLinks = Array.from(document.querySelectorAll('.nav-link[href^=\"#\"]'));
+            const hrefToLinks = new Map();
+            navLinks.forEach((link) => {
+                const href = link.getAttribute('href');
+                if (!href) return;
+                if (!hrefToLinks.has(href)) hrefToLinks.set(href, []);
+                hrefToLinks.get(href).push(link);
+            });
+
+            const hrefs = Array.from(hrefToLinks.keys());
+            const sections = hrefs.map((href) => document.querySelector(href)).filter(Boolean);
 
             function updateHeaderState() {
                 if (!header) return;
                 header.classList.toggle('scrolled', window.scrollY > 10);
 
                 const scrollPos = window.scrollY + 120;
-                let activeIndex = -1;
+                let activeHref = null;
 
                 sections.forEach((section, index) => {
                     const top = section.offsetTop;
                     const bottom = top + section.offsetHeight;
                     if (scrollPos >= top && scrollPos < bottom) {
-                        activeIndex = index;
+                        activeHref = hrefs[index] || null;
                     }
                 });
 
-                navLinks.forEach((link, index) => {
-                    link.classList.toggle('active', index === activeIndex);
-                });
+                navLinks.forEach((link) => link.classList.remove('active'));
+
+                if (!activeHref) return;
+
+                if (activeHref === '#letter') {
+                    const current = (letterPager?.dataset?.page || 'my') === 'her' ? 'her' : 'my';
+                    const letterLinks = hrefToLinks.get('#letter') || [];
+                    const best = letterLinks.find((l) => l.dataset?.letterPage === current) || letterLinks[0];
+                    if (best) best.classList.add('active');
+                    return;
+                }
+
+                (hrefToLinks.get(activeHref) || []).forEach((l) => l.classList.add('active'));
             }
 
             updateHeaderState();
@@ -1003,6 +1123,34 @@
                 clearTimeout(surpriseAutoClose);
                 surpriseAutoClose = null;
             }
+        }
+
+        function showNotesOverlay() {
+            if (!notesOverlay || !notesList) return;
+
+            notesList.innerHTML = '';
+            NOTE_POINTS.forEach((text) => {
+                const li = document.createElement('li');
+
+                const bullet = document.createElement('span');
+                bullet.className = 'notes-bullet';
+                bullet.textContent = '\u2713';
+
+                const body = document.createElement('div');
+                body.textContent = text;
+
+                li.appendChild(bullet);
+                li.appendChild(body);
+                notesList.appendChild(li);
+            });
+
+            notesOverlay.hidden = false;
+            if (notesClose) notesClose.focus();
+        }
+
+        function hideNotesOverlay() {
+            if (!notesOverlay) return;
+            notesOverlay.hidden = true;
         }
 
         function setupValentineAsk() {
